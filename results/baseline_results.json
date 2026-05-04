@@ -1,0 +1,19 @@
+{
+  "config": {
+    "methods": [
+      "seq_prob",
+      "perplexity",
+      "token_entropy",
+      "lexical_similarity",
+      "eccentricity"
+    ]
+  },
+  "results": {
+    "mean_f1": 0.2239620498656512,
+    "seq_prob_prr": 0.7331357240192559,
+    "perplexity_prr": 0.14757761759887253,
+    "token_entropy_prr": 0.21089303531202092,
+    "lexical_similarity_prr": 0.42218726338940127,
+    "eccentricity_prr": 0.5836457772885628
+  }
+}

@@ -1,0 +1,3 @@
+Model,Mean F1,Seq Prob PRR,Perplexity PRR,Token Entropy PRR,Lexical Similarity PRR,Eccentricity PRR
+Vicuna-7B,0.224,0.733,0.148,0.211,0.422,0.584
+Mistral-7B,0.161,0.605,0.255,0.306,0.406,0.455

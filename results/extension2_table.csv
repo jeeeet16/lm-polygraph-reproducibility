@@ -1,0 +1,16 @@
+sweep,method,setting,prr
+temperature,Seq Prob PRR,1.0,0.6046
+temperature,Perplexity PRR,1.0,0.2549
+temperature,Token Entropy PRR,1.0,0.3064
+temperature,Lexical Similarity PRR,1.0,0.4252
+temperature,Eccentricity PRR,1.0,0.4645
+top_p,Seq Prob PRR,0.85,0.6046
+top_p,Perplexity PRR,0.85,0.2549
+top_p,Token Entropy PRR,0.85,0.3064
+top_p,Lexical Similarity PRR,0.85,0.3343
+top_p,Eccentricity PRR,0.85,0.4179
+n_samples,Seq Prob PRR,10.0,0.6046
+n_samples,Perplexity PRR,10.0,0.2549
+n_samples,Token Entropy PRR,10.0,0.3064
+n_samples,Lexical Similarity PRR,10.0,0.4195
+n_samples,Eccentricity PRR,10.0,0.4961
