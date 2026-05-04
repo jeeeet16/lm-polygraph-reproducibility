@@ -1,4 +1,4 @@
-**LM-Polygraph: Uncertainty Estimation for Language Models**
+# **LM-Polygraph: Uncertainty Estimation for Language Models**
 
 The project reproduces selected uncertainty estimation experiments using the LM-Polygraph framework and extends the analysis with cross-model evaluation and sampling-parameter experiments.
 
