@@ -52,11 +52,16 @@ We reproduce a subset of uncertainty estimation experiments and extend the analy
 pip install -r requirements.txt
 ```
 
-### 2. (Optional) HuggingFace login
+### 2. HuggingFace Login
 
-```bash
-huggingface-cli login
+You will need to login using the following code
+
 ```
+from huggingface_hub import login
+login("YOUR_HF_TOKEN") 
+```
+
+Logging in using your token in the notebook will be easier, as huggingface did give us some issues while trying to login using its popup.
 
 ### 3. Run notebooks in order
 
@@ -66,7 +71,7 @@ notebooks/02_extension1_cross_model.ipynb
 notebooks/03_extension2_sampling_sweep.ipynb
 ```
 
-⚠️ GPU is required for running Vicuna-7B and Mistral-7B efficiently.
+Please note that: GPU is required for running Vicuna-7B and Mistral-7B efficiently. We used A100 for Baseline and Extension 1, and used Nvidia G4 for Extension 2. 
 
 ---
 
